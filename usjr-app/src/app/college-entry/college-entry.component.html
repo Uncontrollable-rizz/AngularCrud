@@ -1,0 +1,25 @@
+<div class="form-wrapper">
+  <h2>Add College</h2>
+
+  <div class="table-wrapper">
+    <form (ngSubmit)="addCollege()">
+      <table>
+        <tbody>
+          <tr>
+            <th>College ID:</th>
+            <td><input type="text" [(ngModel)]="collegeData.collid" name="collegeId" required></td>
+          </tr>
+          <tr>
+            <th>Full Name:</th>
+            <td><input [(ngModel)]="collegeData.collfullname" name="fullName" required></td>
+          </tr>
+          <tr>
+            <th>Short Name:</th>
+            <td><input [(ngModel)]="collegeData.collshortname" name="shortName" required></td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="submit">Add College</button>
+    </form>
+  </div>
+</div>

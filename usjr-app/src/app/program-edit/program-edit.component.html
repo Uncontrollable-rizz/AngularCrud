@@ -1,0 +1,57 @@
+<!-- edit-program.component.html -->
+
+<!-- <div id="form-wrapper">
+    <h2>Edit Program</h2>
+  
+    <form (ngSubmit)="updateProgram()">
+      <label for="collid">Program ID:</label>
+      <input type="text" id="collid" [(ngModel)]="program.progid" name="collid" readonly>
+
+      <label for="progfullname">Full Name:</label>
+      <input type="text" id="progfullname" [(ngModel)]="program.progfullname" name="progfullname" required>
+  
+      <label for="progshortname">Short Name:</label>
+      <input type="text" id="progshortname" [(ngModel)]="program.progshortname" name="progshortname" required>
+
+      <label for="progcollid">College ID:</label>
+      <input type="text" id="progcollid" [(ngModel)]="program.progcollid" name="progcollid" readonly>
+
+      <label for="progcolldeptid">College Department ID:</label>
+      <input type="text" id="progcolldeptid" [(ngModel)]="program.progcolldeptid" name="progcolldeptid" readonly>
+  
+      <button type="submit">Update Program</button>
+    </form>
+  </div> -->
+  
+<div id="form-wrapper">
+  <h2>Edit Programm</h2>
+
+  <form (ngSubmit)="updateProgram()">
+    <table>
+      <tbody>
+        <tr>
+          <th><label for="collid">Program ID:</label></th>
+          <td><input type="text" id="collid" [(ngModel)]="program.progid" name="collid" readonly></td>
+        </tr>
+        <tr>
+          <th><label for="progfullname">Full Name:</label></th>
+          <td><input type="text" id="progfullname" [(ngModel)]="program.progfullname" name="progfullname" required></td>
+        </tr>
+        <tr>
+          <th><label for="progshortname">Short Name:</label></th>
+          <td><input type="text" id="progshortname" [(ngModel)]="program.progshortname" name="progshortname" required></td>
+        </tr>
+        <tr>
+          <th><label for="progcollid">College ID:</label></th>
+          <td> <input type="text" id="progcollid" [(ngModel)]="program.progcollid" name="progcollid" readonly></td>
+        </tr>
+        <tr>
+          <th><label for="progcolldeptid">College Department ID:</label></th>
+          <td><input type="text" id="progcolldeptid" [(ngModel)]="program.progcolldeptid" name="progcolldeptid" readonly></td>
+        </tr>
+
+      </tbody>
+    </table>
+    <button type="submit">Update Program</button>
+  </form>
+</div>

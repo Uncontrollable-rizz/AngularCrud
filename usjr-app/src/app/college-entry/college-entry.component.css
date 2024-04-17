@@ -1,0 +1,126 @@
+/* college-entry.component.css */
+/* college-entry.component.css */
+/* college-entry.component.css */
+.form-wrapper {
+    font-family: sans-serif;
+    text-align: center;
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Add some padding for spacing */
+    box-sizing: border-box; /* Ensure padding doesn't increase width */
+  }
+  
+  /* Other CSS remains unchanged */
+  
+
+h2 {
+  color: #284e35;
+}
+
+.table-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  vertical-align: middle;
+}
+
+th {
+  color: #284e35;
+  width: 30%;
+  min-width: 100px;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  width: calc(100% - 24px); /* Considering padding and borders */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #284e35;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  height: 40px;
+}
+
+button[type="submit"]:hover {
+  background-color: #1a2e20;
+}
+
+  
+  h2 {
+    color: #284e35;
+  }
+  
+  .table-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+  }
+  
+  th {
+    color: #284e35;
+    width: 30%;
+    min-width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="text"]:focus {
+    width: calc(100% - 24px); /* Considering padding and borders */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #284e35;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1a2e20;
+  }
+  

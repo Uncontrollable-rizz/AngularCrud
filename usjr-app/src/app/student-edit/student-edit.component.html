@@ -1,0 +1,30 @@
+
+
+<div id="form-wrapper">
+  <h2>Edit Student</h2>
+
+  <form (ngSubmit)="updateStudent()">
+    <label for="studid">Student ID:</label>
+    <input type="text" id="studid" [(ngModel)]="student.studid" name="studid" readonly>
+
+    <label for="studfirstname">First Name:</label>
+    <input type="text" id="studfirstname" [(ngModel)]="student.studfirstname" name="studfirstname" required>
+
+    <label for="studlastname">Last Name:</label>
+    <input type="text" id="studlastname" [(ngModel)]="student.studlastname" name="studlastname" required>
+
+    <label for="studmidname">Middle Initial:</label>
+    <input type="text" id="studmidname" [(ngModel)]="student.studmidname" name="studmidname" required>
+
+    <label for="studcollid">College ID:</label>
+    <input type="text" id="studcollid" [(ngModel)]="student.studcollid" name="studcollid" readonly>
+
+    <label for="studprogid">Program ID:</label>
+    <input type="text" id="studprogid" [(ngModel)]="student.studprogid" name="studprogid" readonly>
+
+    <label for="studyear">Year:</label>
+    <input type="text" id="studyear" [(ngModel)]="student.studyear" name="studyear" required>
+
+    <button type="submit">Update Student</button>
+  </form>
+</div>

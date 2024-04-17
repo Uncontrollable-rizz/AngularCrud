@@ -1,0 +1,35 @@
+<!-- program-list.component.html -->
+
+<div id="form-wrapper">
+  <h2>Program List</h2>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Short Name</th>
+        <th>College ID</th>
+        <th>Department ID</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let program of programs">
+        <td>{{ program.progid }}</td>
+        <td>{{ program.progfullname }}</td>
+        <td>{{ program.progshortname }}</td>
+        <td>{{ program.progcollid }}</td>
+        <td>{{ program.progcolldeptid }}</td>
+        <td>
+          <button (click)="editProgram(program)">Edit</button>
+        </td>
+        <td>
+          <button (click)="confirmDelete(program.progid)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button (click)="navigateToHome()">Go to Home</button>
+</div>

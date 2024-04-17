@@ -1,0 +1,42 @@
+<!-- <div id="form-wrapper">
+    <h2>Edit College</h2>
+  
+    <form (submit)="updateCollege()">
+      <label for="collid">College ID:</label>
+      <input type="text" id="collid" [(ngModel)]="college.collid" name="collid" readonly>
+
+      <label for="collfullname">Full Name:</label>
+      <input type="text" id="collfullname" [(ngModel)]="college.collfullname" name="collfullname" required>
+  
+      <label for="collshortname">Short Name:</label>
+      <input type="text" id="collshortname" [(ngModel)]="college.collshortname" name="collshortname" required>
+  
+  
+      <button type="submit">Update College</button>
+    </form>
+  </div> -->
+  
+
+  <div id="form-wrapper">
+    <h2>Edit College</h2>
+
+    <form (submit)="updateCollege()">
+    <table>
+      <tbody>
+        <tr>
+          <th> <label for="collid">College ID:</label></th>
+          <td><input type="text" id="collid" [(ngModel)]="college.collid" name="collid" readonly></td>
+        </tr>
+        <tr>
+          <th><label for="collfullname">Full Name:</label></th>
+          <td><input type="text" id="collfullname" [(ngModel)]="college.collfullname" name="collfullname" required></td>
+        </tr>
+        <tr>
+          <th><label for="collshortname">Short Name:</label></th>
+          <td><input type="text" id="collshortname" [(ngModel)]="college.collshortname" name="collshortname" required></td>
+        </tr>
+      </tbody>
+    </table>
+    <button type="submit">Update College</button>
+    </form>
+  </div>

@@ -1,0 +1,48 @@
+/* Styling for the College Listing component */
+
+#form-wrapper {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #124225;
+  color: #fec039;
+}
+
+h2 {
+  color: #fec039;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  color: #fec039;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #1e5831;
+}
+
+button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: #fec039;
+  color: #124225;
+}
+
+button:hover {
+  background-color: #fcb526;
+}

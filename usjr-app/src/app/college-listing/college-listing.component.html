@@ -1,0 +1,31 @@
+<!-- college-list.component.html -->
+
+<div id="form-wrapper">
+  <h2>College List</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Short Name</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let college of colleges">
+        <td>{{ college.collid }}</td>
+        <td>{{ college.collfullname }}</td>
+        <td>{{ college.collshortname }}</td>
+        <td>
+          <button (click)="editCollege(college)">Edit</button>
+        </td>
+        <td>
+          <button (click)="confirmDelete(college.collid)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button (click)="navigateToHome()">Go to Home</button>
+</div>

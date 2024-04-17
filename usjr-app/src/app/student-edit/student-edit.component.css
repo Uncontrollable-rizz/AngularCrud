@@ -1,0 +1,68 @@
+/* Styling for the Student Add component */
+
+#form-wrapper {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #124225;
+    color: #fec039;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    color: #fec039;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    color: #fec039;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select {
+    width: calc(100% - 24px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  /* Set specific width for "First Name," "Last Name," and "Middle Name" inputs */
+  input[name="firstName"],
+  input[name="lastName"],
+  input[name="midName"] {
+    width: calc(100% - 24px); /* Adjust width as needed */
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fec039;
+    color: #124225;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #fcb526;
+  }
+  

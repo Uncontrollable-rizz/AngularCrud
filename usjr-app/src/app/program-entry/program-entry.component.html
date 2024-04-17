@@ -1,0 +1,32 @@
+<div id="form-wrapper">
+  <h2>Add Program</h2>
+
+  <form (ngSubmit)="addProgram()">
+    <table>
+      <tbody>
+        <tr>
+          <th>Program ID:</th>
+          <td><input type="text" [(ngModel)]="programData.progid" name="programId" required></td>
+        </tr>
+        <tr>
+          <th>Full Name:</th>
+          <td><input [(ngModel)]="programData.progfullname" name="fullName" required></td>
+        </tr>
+        <tr>
+          <th>Short Name:</th>
+          <td><input [(ngModel)]="programData.progshortname" name="shortName" required></td>
+        </tr>
+        <tr>
+          <th>College ID:</th>
+          <td><input type="text" [(ngModel)]="programData.progcollid" name="collegeId" required></td>
+        </tr>
+        <tr>
+          <th>Department ID:</th>
+          <td><input type="text" [(ngModel)]="programData.progcolldeptid" name="deptId" required></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button type="submit">Add Program</button>
+  </form>
+</div>
